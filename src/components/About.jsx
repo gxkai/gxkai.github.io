@@ -37,14 +37,13 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] sm:max-w-4xl leading-[30px] text-justify"
       >
-        I am skilled software engineer with 3+ years of experience in web and
+        I am skilled software engineer with 8+ years of experience in web and
         mobile application development. I have worked with various technologies
-        including React, React Native, Node, Express, MongoDB, Firebase, MySQL,
+        including Vue, Nuxt, React, React Native, Node, Express, MongoDB, MySQL,
         PostgreSQL, GraphQL, Apollo, Prisma, Next, Gatsby, TypeScript,
         JavaScript, HTML, CSS, SASS, Tailwind, Bootstrap, Material UI, Styled
         Components, Framer Motion, Three.js, Blender, Adobe XD, Figma, Git,
-        GitHub, GitLab, Netlify, Vercel, Heroku, Digital Ocean, AWS, Google
-        Cloud, and more.
+        GitHub and more.
       </motion.p>
       <div className="mt-20 flex flex-wrap gap-10 justify-center">
         {services.map((service, index) => (

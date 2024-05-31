@@ -77,8 +77,7 @@ const Project = () => {
           Node, Express, MongoDB, Firebase, MySQL, PostgreSQL, GraphQL, Apollo,
           Prisma, Next, Gatsby, TypeScript, JavaScript, HTML, CSS, SASS,
           Tailwind, Bootstrap, Material UI, Styled Components, Framer Motion,
-          Three.js, Blender, Adobe XD, Figma, Git, GitHub, GitLab, Netlify,
-          Vercel, Heroku, Digital Ocean, AWS, Google Cloud, and more.
+          Three.js, Blender, Adobe XD, Figma, Git, GitHub, and more.
         </motion.p>
       </div>
       <div className="mt-20 flex flex-wrap gap-7">

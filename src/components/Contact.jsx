@@ -31,7 +31,7 @@ const Contact = () => {
         {
           from_name: form.name,
           from_email: form.email,
-          to_name: "Zubayer",
+          to_name: "GuXukai",
           to_email: emailJSConfig.toEmail,
           message: form.message,
         },
@@ -103,12 +103,12 @@ const Contact = () => {
           </button>
         </form>
       </motion.div>
-      <motion.div
-        variants={slideIn("right", "tween", 0.2, 1)}
-        className="xl:flex-1 xl:h-auto md:h-[550px] h-[350px]"
-      >
-        <EarthCanvas />
-      </motion.div>
+      {/*<motion.div*/}
+      {/*  variants={slideIn("right", "tween", 0.2, 1)}*/}
+      {/*  className="xl:flex-1 xl:h-auto md:h-[550px] h-[350px]"*/}
+      {/*>*/}
+      {/*  <EarthCanvas />*/}
+      {/*</motion.div>*/}
     </div>
   );
 };

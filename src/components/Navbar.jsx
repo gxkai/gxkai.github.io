@@ -13,16 +13,19 @@ const Navbar = () => {
     >
       <div className="w-full flex justify-between items-center max-w-7xl mx-auto">
         <Link
-          to="/"
-          className="flex items-center gap-2"
-          onClick={() => {
-            setActive("");
-            window.scrollTo(0, 0);
-          }}
+            to="/"
+            className="flex items-center gap-2"
+            onClick={() => {
+              setActive("");
+              window.scrollTo(0, 0);
+            }}
         >
-          <img src={logo} alt="logo" className="w-9 h-9 object-contain" />
+          {/*<img src={logo} alt="logo" className="w-9 h-9 object-contain" />*/}
+          {/*<p className="text-white text-[18px] font-bold cursor-pointer flex">*/}
+          {/*  ZBM &nbsp;<span className="sm:block hidden">Zubayer</span>*/}
+          {/*</p>*/}
           <p className="text-white text-[18px] font-bold cursor-pointer flex">
-            ZBM &nbsp;<span className="sm:block hidden">Zubayer</span>
+            Gu Xukai
           </p>
         </Link>
         <ul className="hidden sm:flex flex-row gap-10">
